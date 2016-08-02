@@ -1,5 +1,7 @@
 To reproduce https://github.com/kardianos/govendor/issues/194 :
 
+**NOTE**: the vendor folder is created inside of the `bravo` package.
+
     $ cd bravo
 
     $ govendor init
