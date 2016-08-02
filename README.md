@@ -16,6 +16,9 @@ To reproduce https://github.com/kardianos/govendor/issues/194 :
      l  github.com/wadey/govendor194/bravo
      l  github.com/wadey/govendor194/bravo/charlie
 
+    $ govendor remove -n +local
+    Remove ".../src/github.com/wadey/govendor194/bravo/vendor/github.com/wadey/govendor194/bravo/charlie/"
+
 Notice that `github.com/wadey/govendor194/bravo/charlie` has been copied into
 the `vendor` folder inside of `bravo`. It is also listed twice in
 `govendor list`.
